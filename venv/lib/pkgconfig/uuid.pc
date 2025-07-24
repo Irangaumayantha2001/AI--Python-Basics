@@ -1,0 +1,11 @@
+prefix=/home/iranga/Projects/demoLanggraph/venv
+exec_prefix=/home/iranga/Projects/demoLanggraph/venv
+libdir=/home/iranga/Projects/demoLanggraph/venv/lib
+includedir=/home/iranga/Projects/demoLanggraph/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
